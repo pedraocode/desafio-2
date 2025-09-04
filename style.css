@@ -15,7 +15,7 @@ body {
 }
 
 
-.skills {
+.botaos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -23,7 +23,7 @@ body {
   margin-top: 25px;
 }
 
-.skill-btn {
+.botaodoscoiso {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -36,16 +36,21 @@ body {
   transition: transform 0.2s ease, background 0.3s ease;
 }
 
-.skill-btn img {
+.botaodoscoiso img {
   width: 18px;
   height: 18px;
   object-fit: contain;
 }
 
-.skill-btn:hover {
+.botaodoscoiso:hover {
   background: #2a2f3a;
   transform: translateY(-2px);
 }
+
+.botaodoscoiso span {
+  color: rgb(98, 101, 110);
+}
+
 
 .hello {
   max-width: 680px;
