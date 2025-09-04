@@ -114,7 +114,7 @@ body {
 
 .card p {
   font-size: 14px;
-  color: #ccc;
+  color: rgb(173, 177, 186);
 }
 
 
@@ -175,12 +175,25 @@ body {
   color: #ccc;
   margin: 0;          
 }
+.perfil {
+  position: relative;
+  display: inline-block;
+}
 
 .martina {
-    border-radius: 50%;
-    border: 2px solid rgb(21, 23, 28);
-    box-shadow: 0 0 0 2px rgb(214, 94, 104);
+  border-radius: 50%;
+  border: 2px solid rgb(21, 23, 28);
+  box-shadow: 0 0 0 4px rgb(214, 94, 104); 
+  object-fit: cover;
 }
+
+.perfil .icon {
+  position: absolute;
+  bottom: 5px;
+  right: -15px;
+
+}
+
 
 .servico-card:hover {
   border: 1px solid #444;
@@ -257,6 +270,7 @@ body {
 .contato-link span {
   flex: 1;
   text-align: left;
+  color: rgb(135, 138, 148);
 }
 
 .contato-link .seta {
@@ -271,4 +285,12 @@ body {
 
 .set {
     margin: 40px 0;
+}
+
+.aaa {
+  color: rgb(120, 126, 143);
+}
+
+.aa {
+  color: rgb(171, 175, 184);
 }
